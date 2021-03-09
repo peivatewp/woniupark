@@ -32,9 +32,6 @@ public class Parking implements Serializable {
         @TableId(value = "id", type = IdType.ID_WORKER)
     private Integer id;
 
-        @ApiModelProperty(value = "出租id")
-        private Integer rentalPriceId;
-
         @ApiModelProperty(value = "车位号")
         private Integer parkingNumber;
 
@@ -61,6 +58,12 @@ public class Parking implements Serializable {
 
         @ApiModelProperty(value = "车位状态分为：上架(0)和下架(1)")
         private Integer parkingStatus;
+
+        @ApiModelProperty(value = "点击量")
+        private Integer hits;
+
+        @ApiModelProperty(value = "车位标题")
+        private String title;
 
 
 }

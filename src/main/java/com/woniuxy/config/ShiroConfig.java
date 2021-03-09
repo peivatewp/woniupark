@@ -83,7 +83,9 @@ public class ShiroConfig {
 
         filterChainDefinitionMap.put("/user/login","anon");
         filterChainDefinitionMap.put("/user/register","anon");
-        filterChainDefinitionMap.put("/page/register.html","anon");
+        filterChainDefinitionMap.put("/parking/findParkingRecommend","anon");
+        filterChainDefinitionMap.put("/parking/findParkingByTitle","anon");
+
 //        注销路径
         filterChainDefinitionMap.put("/user/logout","logout");
 //        目前还不清楚前后端分离之后，怎么拦截，所以直接全部放行

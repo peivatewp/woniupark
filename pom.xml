@@ -115,7 +115,12 @@
             <artifactId>shiro-ehcache</artifactId>
             <version>1.5.3</version>
         </dependency>
-
+<!--        分页-->
+        <dependency>
+            <groupId>com.github.pagehelper</groupId>
+            <artifactId>pagehelper-spring-boot-starter</artifactId>
+            <version>1.2.3</version>
+        </dependency>
     </dependencies>
 
     <build>
